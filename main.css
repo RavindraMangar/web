@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+.topnav {
+  position: fixed;
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  padding: 14px 16px;
+  top: 0;
+  width: 100%;
+}
+
+
+
+
+/* Centered section inside the top navigation */
+.topnav a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 17px;
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+body {
+  background-color: rgb(247, 233, 253);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  text-indent: 500px;
+  list-style: inside;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 4px;
+}
+
+p {
+  text-indent: 50px;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: medium solid purple;
+}
+
+p.caption {
+  text-align: center;
+  color: rgb(11, 26, 164);
+  font-family: 'Raleway', sans-serif;
+}
